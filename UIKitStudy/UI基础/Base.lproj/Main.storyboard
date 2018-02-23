@@ -65,6 +65,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="Ee9-1S-qwd" id="mOH-AP-GGL"/>
+                        <outlet property="number1" destination="pnl-is-Tbn" id="cNL-6i-9Eu"/>
+                        <outlet property="number2" destination="6tr-at-oHY" id="IAR-Wb-bxK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
